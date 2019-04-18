@@ -108,7 +108,7 @@
                                 </label>
                             </div>
                         </div>
-                        <button type="submit" class="btn input-block-level form-control btn-rounded z-depth-1a" id="Submit-btn">Register</button>
+                        <button type="submit" class="btn input-block-level form-control btn-rounded z-depth-1a" id="register-modal-btn">Register</button>
                     </form>
                     <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"> Follow us on:</p>
                     <div class="row my-3 d-flex justify-content-center">

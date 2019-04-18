@@ -39,12 +39,12 @@
             </p>
         </div>
     </div>
-    <div class="container text-dark">
+    <div class="container text-white">
         <div class="row">		
             <!-- Form -->
             <div class="nb-form">
                 <h4 class="title">Contact us</h4>
-                <img src="assets/images/paul.jpeg" alt="" class="user-icon"><img src="assets/images/yariel.png" alt="" class="user-icon mr-5">
+                <img src="assets/images/yariel.png" alt="" class="user-icon mr-5">
                 <p class="message">Feel free to contact us</p>
                 <form>
                     <input type="text" name="cpname" placeholder="Name:" required>

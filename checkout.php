@@ -1,5 +1,9 @@
 <!-- (Header) -->
 <?php include('_inc/header.php'); ?>
+<!-- Import (Login-Modal) -->
+<?php include('login_modal.php'); ?>
+<!-- Import (Register-Modal) -->
+<?php include('register_modal.php'); ?>
 
 
 <!-- Container (Checkout) -->
@@ -61,7 +65,7 @@
                                 <span class="help-block" data-valmsg-for="x_zip" data-valmsg-replace="true"></span>
                             </div>
                             <div>
-                                <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block">
+                                <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block text-white">
                                     <i class="fa fa-lock fa-lg"></i>&nbsp;
                                     <span id="payment-button-amount">Pay</span>
                                     <span id="payment-button-sending" style="display:none;">Sending…</span>

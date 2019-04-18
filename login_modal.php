@@ -15,12 +15,12 @@
                 <!--Body-->
                 <div class="container sign-form">
                     <form>
-                        <div class="form-group-md">
+                        <div class="form-email-md">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email:" required>
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
-                        <div class="form-group-md">
+                        <div class="form-password-md">
                             <label for="exampleInputPassword1">Password</label>
                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password:" required><small id="passwordHelpInline" class="text-muted">
                                 Must be 8-20 characters long.
@@ -34,7 +34,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12">
-                            <button type="submit" class="btn input-block-level form-control btn-rounded z-depth-1a" id="Submit-btn" onclick="myFunction()">Login</button>
+                            <button type="submit" class="btn input-block-level form-control btn-rounded z-depth-1a" id="login-modal-btn" onclick="myFunction()">Login</button>
                         </div>
                     </div>
                 </div>

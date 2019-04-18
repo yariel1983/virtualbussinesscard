@@ -20,7 +20,7 @@
         
         <!-- Navigation -->
         <a class="menu-toggle rounded" href="#">
-            <i class="fas fa-bars fa-4x"></i>
+            <i class="fas fa-bars fa-3x text-white"></i>
         </a>
         <nav id="sidebar-wrapper">
             <ul class="sidebar-nav">
@@ -37,17 +37,15 @@
                     <a class="js-scroll-trigger" data-toggle="modal" data-target="#register-modal">Register</a>
                 </li>
                 <li class="sidebar-nav-item">
-                    <a class="js-scroll-trigger" href="services.php">Services</a>
-                </li>               
+                    <a class="js-scroll-trigger" href="about.php">About</a>
+                </li>             
                 <li class="sidebar-nav-item">
-                    <a class="js-scroll-trigger" href="pricing.php">Pricing</a>
+                    <a class="js-scroll-trigger" href="checkout.php">Payment</a>
                 </li>
                 <li class="sidebar-nav-item">
                     <a class="js-scroll-trigger" href="#">Help & Support</a>
                 </li>
-                <li class="sidebar-nav-item">
-                    <a class="js-scroll-trigger" href="about.php">About</a>
-                </li>
+                
             </ul>
         </nav>
         

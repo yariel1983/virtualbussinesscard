@@ -1,7 +1,7 @@
 
 /* Navbar CSS*/
 
-.navbar-toggler {
+/*.navbar-toggler {
     background: transparent;
     position: relative;
     z-index: 800;
@@ -23,38 +23,7 @@
     padding: 17px;
     transition: all 0.5s ease-in-out;
     pointer-events: auto;
-}
-
-/*Toggler button*/
-.navbar-toggler .hamb-top{
-    height: 3px;
-    right: 0;
-    position: absolute;
-    width: 100%;
-    background-color: rgba(172,21,18,1) !important;
-}
-
-
-.navbar-toggler .hamb-middle{
-    height: 3px;
-    right: 0;
-    position: absolute;
-    width: 100%;
-    background-color: rgba(172,21,18,1) !important;
-    margin-top: -3px;
-    top: 0%;
-}
-
-
-.navbar-toggler .hamb-bottom{
-    height: 3px;
-    right: 0;
-    position: absolute;
-    width: 100%;
-    background-color: rgba(172,21,18,1) !important;
-    margin-top: -3px;
-    top: 50%;
-}
+}*/
 
 /* All form control*/
 
@@ -72,7 +41,7 @@
 }
 
 .footer-bs {
-    background: #533e90c4;
+    background: #efefee3b;
     padding: 60px 40px;
     color: rgba(255,255,255,1.00);
     border-bottom-right-radius: 6px;
@@ -128,7 +97,7 @@
 #footerbtn{
     border-radius:0px 25px 25px 0px !important;
     color: #fff;
-    background: #1fabf7;
+    background: #7baee8;
     margin-left: 0 !important;
 }
 
@@ -197,7 +166,7 @@
     width: 300px;
     background: #FFF;
     right: 5px;
-    bottom: -367px;
+    bottom: -350px;
     transition: all .8s cubic-bezier(.22, .67, .43, 1.22) .2s;
     border-radius: 10px 10px 0 0;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
@@ -211,10 +180,10 @@
 
 .nb-form .user-icon {
     position: absolute;
-    top: -49px;
-    right: 12px;
+    top: -44px;
+    right: -36px;
     display: block;
-    width: 58px;
+    width: 60px;
     margin: 20px auto 15px;
     border-radius: 100%;
 }
@@ -222,10 +191,10 @@
 /*Title*/
 
 .nb-form .title {
-    background: #533e90;
+    background: #558fa7;
     font-size: 16px !important;
     padding: 20px 18px !important;
-    color: black !important;
+    color: #fff !important;
     border-radius: 10px 10px 0 0;
 }
 
@@ -276,13 +245,14 @@
     width: 120px;
     margin: 0 auto;
     padding: 0 20px;
-    height: 70px;
-    line-height: 40px;
-    border-radius: 20px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50px;
     cursor: pointer;
     transition: all .1s ease;
-    color: black !important;
-    border: none;
+    color: #fff !important;
+    border: #fff;
+   
 }
 
 .nb-form input[type='submit']:hover {
@@ -310,7 +280,7 @@
 }
 
 .nb-form input[type='submit'] {
-    background: #533e90;
+    background: #558fa7;
 }
 
 @media screen and (max-width: 676px) {
@@ -506,12 +476,27 @@ body{
     background: rgb(13, 13, 14);
 }
 
-#loginbtn, #registerbtn{
+#registerbtn{
     border-radius: 50px !important;
-    padding: 5px 80px 5px 80px;
-    font-size: 1.5em;
-    background: #533e90;
+    border-color: #47b5e4 !important;
+    padding: 5px 60px 5px 60px;
+    background: #a7b326;
+    color: #fff;
+    font-weight: bold;
+    
 }
+
+
+#loginbtn{
+    border-radius: 50px !important;
+    border-color: #fff !important;
+    padding: 5px 60px 5px 60px;
+    background: #f16309;
+    color: #fff;
+    font-weight: bold;
+}
+
+
 
 h1 {
     font-size: 6.0em;
@@ -578,9 +563,17 @@ h3{
     color: #2196f3 !important; }
 
 .form-elegant .modal-body, .form-elegant .modal-footer {
-    font-weight: 400; }
-#Submit-btn{
-    background: #533e90;
+    font-weight: 400; 
+    
+}
+
+#login-modal-btn {
+    background: #f16309;
+    color: white;
+}
+
+#register-modal-btn{
+     background: #a7b326;
     color: white;
 }
 
@@ -710,13 +703,21 @@ h3{
     width: 158%;
 }
 
-
-#landingbanner{
-    margin-top: 200px;
-    margin-bottom: 200px;
-    
+ ul, li, .fa-facebook{
+    color: #3b5998 !important;
 }
 
+ul, li, .fa-instagram{
+    color: #ea4658 !important;
+}
+
+ul, li, .fa-twitter{
+    color: #1DA1F2  !important;
+}
+
+ul, li, .fa-linkedin{
+    color: #0077B5  !important;
+}
 
 
 
